@@ -1,6 +1,6 @@
 import {AsyncStorage} from 'react-native';
 import {fromJS} from 'immutable';
-const STATE_STORAGE_KEY = 'proyect-xAppState:Latest';
+const STATE_STORAGE_KEY = 'fitAppState:Latest';
 
 export async function resetSnapshot() {
   const state = await rehydrate();

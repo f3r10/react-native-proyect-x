@@ -1,4 +1,4 @@
-package com.proyect-x;
+package com.fit;
 
 import android.app.Application;
 import android.util.Log;

@@ -6,7 +6,7 @@ import React from 'react';
 import {AppRegistry, BackAndroid} from 'react-native';
 import * as NavigationStateActions from './src/modules/navigation/NavigationState';
 
-const proyect-x = React.createClass({
+const fit = React.createClass({
 
   componentWillMount() {
     BackAndroid.addEventListener('hardwareBackPress', this.navigateBack);
@@ -44,4 +44,4 @@ const proyect-x = React.createClass({
   }
 });
 
-AppRegistry.registerComponent('proyect-x', () => proyect-x);
+AppRegistry.registerComponent('fit', () => fit);

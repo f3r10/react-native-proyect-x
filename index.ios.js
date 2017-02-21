@@ -5,7 +5,7 @@ import AppViewContainer from './src/modules/AppViewContainer';
 import React from 'react';
 import {AppRegistry} from 'react-native';
 
-const proyect-x = React.createClass({
+const fit = React.createClass({
 
   render() {
     return (
@@ -16,4 +16,4 @@ const proyect-x = React.createClass({
   }
 });
 
-AppRegistry.registerComponent('proyect-x', () => proyect-x);
+AppRegistry.registerComponent('fit', () => fit);
